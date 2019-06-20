@@ -1,5 +1,6 @@
 # Permanent Brow Studio
 Permanent Brow Studio on veebileht ilusalongile, mis tegeleb kulmude, silmade ja huulte püsimeigiga. Klientidel on võimalik tutvuda salongi pakutavate teenustega, hinnakirjaga, kontaktandmetega, saada ülevaade püsimeigiga seotud küsimutest ning endale aeg broneerida. 
+
 Projekt on loodud 2019 Tallinna Ülikooli Digitehnoloogiate instituudi Informaatika eriala Tarkvaraarenduse praktika tunniga seoses, mille sisuks oli lasta meeskondadel kogeda suurema projekti koostamist, meeskonnatööd ja kliendiga suhtlemist.
 
 ## Eesmärk: 
