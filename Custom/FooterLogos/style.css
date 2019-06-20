@@ -1,0 +1,74 @@
+.icons{
+  display: table;
+  margin: 0 auto;
+}
+
+#twitter{
+  background:url(twitter.png);
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+
+#face{
+  background:url(face.png);
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+
+#insta{
+  background:url(insta2.png);
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+}
+
+
+#twitter:hover{
+  animation: walk-east 0.5s steps(4);
+  transition: 1s;
+  background:url(tw.png);
+  transform: scale(1.1);
+}
+
+#face:hover{
+  animation: walk-east2 0.3s steps(8);
+  transition: 1s;
+  background:url(face2.png);
+  transform: scale(1.1);
+}
+
+#insta:hover{
+  animation: resize 1s;
+  transition: 2s;
+  background:url(insta.png);
+}
+
+@keyframes resize {
+  50%{transform: scale(1.1);}
+  100%{transform: scaleX(-1) scaleX(-1);}
+}
+
+@keyframes walk-east {
+  from{background-position: 0px;}
+  to{background-position: -600px;}
+}
+
+@keyframes walk-east2 {
+  from{background-position: 0px;}
+  to{background-position: -638px;}
+}
+
+@keyframes spin {
+   0% {transform:rotate(0deg);  }
+   100% {transform:rotate(360deg); }
+ }
+
+ @keyframes spin2 {
+    0% {transform:rotate(0deg);  }
+    25% {transform:rotate(20deg);  }
+    50% {transform:rotate(0deg);  }
+    75% {transform:rotate(-20deg);  }
+    100% {transform:rotate(0deg); }
+  }

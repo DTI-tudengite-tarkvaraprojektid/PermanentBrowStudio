@@ -1,0 +1,261 @@
+body {
+  margin:0;
+	background:#fff;
+	text-align:center;
+}
+
+#svgwrapper {
+  display:inline-block;
+  width:50%;
+  height:50%;
+  stroke: white;
+  fill: none;
+  position: relative;
+}
+
+@media only screen and (max-width: 500px){
+  #svgwrapper {
+    display:inline-block;
+    width:90%;
+    height:90%;
+    stroke: white;
+    fill: none;
+    position: relative;
+  }
+}
+
+.imageContainer{
+  position: absolute;
+  z-index: -1;
+}
+
+.logo-path {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: calc(20% + 20px);
+}
+
+.path {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 1s linear forwards;
+  animation-delay: 3.6s;
+}
+
+
+.path2 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path3 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path4 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path5 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path6 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path7 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path8 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path9 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path10 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path11 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path12 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path13 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: sep 1s linear forwards;
+  animation-delay: 3.6s;
+}
+
+@keyframes sep {
+  from {
+    stroke-dashoffset: 111;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*Suuremad tähed*/
+.path14 {
+  stroke-dasharray: 111;
+  stroke-dashoffset: 111;
+  stroke-width: 12;
+  animation: dash 2s linear forwards;
+  animation-delay: 3.6s;
+}
+
+.path18 {
+  stroke-dasharray: 52;
+  stroke-dashoffset: 52;
+  stroke-width: 12;
+  animation: dash4 0.1s linear forwards;
+  animation-delay: 1.7s;
+}
+
+.path20 {
+  stroke-dasharray: 853;
+  stroke-dashoffset: 853;
+  stroke-width: 12;
+  animation: dash2 1s linear forwards;
+}
+
+.path21 {
+  stroke-dasharray: 853;
+  stroke-dashoffset: 853;
+  stroke-width: 12;
+  animation: dash2 1s linear forwards;
+}
+
+.path22 {
+  stroke-dasharray: 853;
+  stroke-dashoffset: 853;
+  stroke-width: 12;
+  animation: dash2 2s linear forwards;
+  animation-delay: 2.7s;
+}
+
+
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 111;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash4 {
+  from {
+    stroke-dashoffset: 53;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.path15 {
+  stroke-dasharray: 923;
+  stroke-dashoffset: 923;
+  stroke-width: 12;
+  animation: dash2 1.3s linear forwards;
+  animation-delay: 2.5s;
+}
+
+.path16 {
+  stroke-dasharray: 923;
+  stroke-dashoffset: 923;
+  stroke-width: 12;
+  animation: dash2 2s linear forwards;
+  animation-delay: 1.7s;
+}
+
+.path17 {
+  stroke-dasharray: 923;
+  stroke-dashoffset: 923;
+  stroke-width: 12;
+  animation: dash2 1s linear forwards;
+  animation-delay: 1.5s;
+}
+
+.path19 {
+  stroke-dasharray: 853;
+  stroke-dashoffset: 853;
+  stroke-width: 12;
+  animation: dash3 1s linear forwards;
+  animation-delay: 0.3s;
+}
+
+
+@keyframes dash3 {
+  from {
+    stroke-dashoffset: 853;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash2 {
+  from {
+    stroke-dashoffset: 923;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

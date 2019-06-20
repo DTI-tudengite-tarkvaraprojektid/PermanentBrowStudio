@@ -1,0 +1,198 @@
+.face1{
+  position: absolute;
+  z-index: 4;
+  opacity: 1;
+  width: 400px;
+  height: 540px;
+  left: 50%;
+  margin-left: -195px;
+}
+
+.face2{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  width: 400px;
+  height: 540px;
+  left: 50%;
+  margin-left: -195px;
+}
+
+.face3{
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  width: 400px;
+  height: 540px;
+  left: 50%;
+  margin-left: -195px;
+}
+
+.face4{
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  width: 400px;
+  height: 540px;
+  left: 50%;
+  margin-left: -195px;
+}
+
+.lips{
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  width: 400px;
+  height: 540px;
+  left: 50%;
+  margin-left: -195px;
+}
+
+.eyes{
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  width: 400px;
+  height: 540px;
+  left: 50%;
+  margin-left: -195px;
+}
+
+.brow{
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  width: 400px;
+  height: 540px;
+  left: 50%;
+  margin-left: -195px;
+}
+
+.imageContainer{
+  width: 100%;
+  height: 540px;
+  margin-bottom: 40px;
+}
+
+.textAllign{
+  display: block;
+  width: 70%;
+  height: 50%;
+  margin: auto;
+}
+
+.pageWrapper{
+  width: 100vw;
+  height: 100vh;
+}
+
+
+h3{
+  letter-spacing: 3px;
+  font-size: 32px;
+  display: grid;
+  grid-gap: 20px;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  animation:
+}
+
+p{
+  text-align: justify;
+  padding-left: 12px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.priceBold{
+  font-size: 20px;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+.columns:hover{
+  transition-duration: 0.2s;
+  transform: translateY(-7px);
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: rgba(242,203,198, 0.88);
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: rgba(242, 221, 219, 0.88);
+  font-size: 20px;
+  font-family: 'Lora', serif;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #ff7b91;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.button:hover{
+  transform: scale(0.1);
+  transition-duration: 0.2s;
+  background-color: #ff7191;
+  box-shadow: 0px 5px 10px rgba(111, 111, 111, 0.4);
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
